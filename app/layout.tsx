@@ -46,7 +46,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Eliza Duda",
+    title: "SkinHouse",
     creators: ["Eliza Duda", "Senne Bels"],
     releaseDate: "2023-03-28",
 
