@@ -2,6 +2,7 @@ import Link from "next/link";
 import Footer from "./components/footer";
 import MailingList from "./components/mailingList";
 import Product from "./components/product";
+import { products } from "./data";
 
 export default function Home() {
   return (
@@ -168,16 +169,21 @@ export default function Home() {
           </p>
         </span>
         <div className="grid grid-cols-3 w-full">
-          <Product
-            title="Cleansing complex"
-            price="€ 55,00"
-            description="Cleanser"
-            image="https://www.skinhouse.be/wp-content/uploads/2023/02/Cleansing-complex_180ml-1-300x300.png"
-            link="/cleansing-complex"
-          />
+          {products
+            .filter((_, i) => i < 6)
+            .map((product) => (
+              <Product
+                key={product.title}
+                title={product.title}
+                price={product.price}
+                description={product.description}
+                image={product.image}
+                link={product.link}
+              />
+            ))}
         </div>
       </div>
-      <div className="py-[8rem]">
+      <div className="py-[4rem]">
         <MailingList />
       </div>
       <Footer />
