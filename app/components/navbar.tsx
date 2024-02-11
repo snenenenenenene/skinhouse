@@ -24,8 +24,8 @@ export default function Navbar() {
   }, [lastScrollTop]);
   return (
     <nav
-      className={`z-50 transition-all duration-700 pt-16 px-[5%] fixed flex w-full top-0 left-0 ${
-        scrollDir === "scrolling up"
+      className={`z-50 transition-all duration-700 ease-in-out pt-16 px-[5%] fixed flex w-full top-0 left-0 ${
+        scrollDir === "scrolling down"
           ? "bg-transparent text-transparent"
           : "backdrop-blur-xl bg-light-alabaster"
       }`}
@@ -55,7 +55,7 @@ export default function Navbar() {
         <picture className={`h-14 w-14  relative `}>
           <div
             className={`h-10 w-10 absolute transition-all duration-300 -top-4  rounded-full flex justify-center items-center ${
-              scrollDir === "scrolling up"
+              scrollDir === "scrolling down"
                 ? "bg-transparent text-transparent"
                 : " bg-light-blackasset text-light-alabaster "
             }`}

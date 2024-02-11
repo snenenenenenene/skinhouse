@@ -27,8 +27,8 @@ export default function Treatment({
 
   return (
     <>
-      <div className="w-[60%] flex flex-col relative border-r border-light-linen  overflow-x-hidden  pt-[2rem] h-[75vh]">
-        <div className="overflow-auto px-[5%] flex-grow  pb-24 text-justify">
+      <div className="flex flex-col relative border-r border-light-linen  overflow-x-hidden w-full pt-[2rem] h-full">
+        <div className="overflow-auto px-[5%] flex-grow  pb-24 w-full text-justify">
           <h1 className="text-3xl font-bold font-Novela pb-[1rem]">
             {treatmentData?.title}
           </h1>
@@ -43,7 +43,7 @@ export default function Treatment({
           </button>
         </section>
       </div>
-      <div className="flex overflow-hidden h-[75vh] w-[20rem] justify-center items-center">
+      <div className="flex overflow-hidden h-full w justify-center items-center">
         {treatmentData && treatmentData.img && (
           <img
             src={treatmentData.img}

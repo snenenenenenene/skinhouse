@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Footer from "./components/footer";
 import MailingList from "./components/mailingList";
 import Product from "./components/product";
 
@@ -172,6 +173,7 @@ export default function Home() {
       <div className="py-[8rem]">
         <MailingList />
       </div>
+      <Footer />
     </main>
   );
 }
