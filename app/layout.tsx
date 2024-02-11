@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-light-alabaster text-light-blacktext font-Basier flex flex-col w-full h-full pt-16 pb-4 px-[5%]">
+      <body className="relative bg-light-alabaster text-light-blacktext font-Basier flex flex-col w-full h-full pt-16 pb-4 px-[5%]">
         <Navbar />
         {children}
         <Footer />

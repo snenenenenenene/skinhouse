@@ -11,20 +11,49 @@ export const treatments: {
     link: "feel-good",
     description: (
       <>
-        Bij een “Feel Good” behandelingen staat verzorging en een zen-moment
-        centraal. Ideaal om kennis te maken met een professionele
-        gelaatsbehandeling en je huid in contact te laten komen met actieve
-        ingrediënten. Bij deze behandelingen wordt er gebruik gemaakt van
-        hoogwaardige producten die steeds aangepast zijn aan jouw huidconditie
-        en wensen. Heb je een huidprobleem of wens je intensiever aan de slag te
-        gaan met anti-aging, dan is een traject van huidverbetering aan te
-        raden. Deze behandelingen en thuisproducten zijn intensiever om jouw
-        doel te bereiken. Feel Good gelaatsverzorging is ideaal: • om je kennis
-        te laten maken met een professionele gelaatsbehandeling • als je even
-        een ZEN-moment nodig hebt • voor een feestje als je een “glowing skin”
-        wil • als onderhoudsbehandeling Onze Feel-Good behandelingen:
-        Gelaatsbehandeling 60 min Gelaatsbehandeling 45 min Tiener
-        Gelaatsbehandeling
+        <p>
+          In a &apos;Feel Good&apos; treatment, care and a zen moment are
+          central. Ideal for getting acquainted with a professional facial
+          treatment and letting your skin come into contact with active
+          ingredients. These treatments use high-quality products that are
+          always tailored to your skin condition and preferences. If you have a
+          skin problem or wish to work more intensively on anti-aging, then a
+          skin improvement trajectory is recommended. These treatments and home
+          products are more intensive to achieve your goal. Feel Good facial
+          care is ideal:
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>to introduce you to a professional facial treatment</li>
+          <li>if you need a ZEN moment</li>
+          <li>for a party if you want &apos;glowing skin&apos;</li>
+          <li>as a maintenance treatment</li>
+        </ul>
+        <p>Our Feel-Good treatments:</p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Facial Treatment 60 min</li>
+          <li>Facial Treatment 45 min</li>
+          <li>Teen Facial Treatment</li>
+        </ul>
       </>
     ),
   },
@@ -34,30 +63,45 @@ export const treatments: {
     img: "https://images.unsplash.com/photo-1556228841-7db5b6786a34?q=80&w=2204&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Wat is huidveroudering? Huidverslapping en rimpels zijn gevolgen van het
-        natuurlijke verouderingsproces van de huid. Huidverslapping ontstaat
-        doordat dieper gelegen bindweefselbandjes worden uitgerekt. Deze houden
-        normaal gesproken de huidstructuur en vetcompartimenten bij elkaar.
-        Doordat je minder vetweefsel, collageen en elastine aanmaakt als je
-        ouder wordt en doordat de onderliggende botstructuur inkrimpt,
-        verslappen die bandjes en daarmee de huid. Hierdoor kunnen ook rimpels
-        ontstaan. Rimpels in de gezichtshuid worden door zowel erfelijke
-        inwendige, als uitwendige omgevingsfactoren veroorzaakt. Anti-Aging
-        behandelingen bij SkinHouse. Rimpels en een verslapte huid geven je vaak
-        een oudere en vermoeide uitstraling. Veel mensen storen zich eraan omdat
-        ze er anders uitzien dan ze zich voelen. Zo kan een fronsrimpel ervoor
-        zorgen dat iemand boos lijkt, terwijl diegene helemaal niet boos is. Bij
-        SkinHouse kunnen we huidverslapping en rimpels doelgericht aanpakken.
-        Wat is het resultaat van de behandeling? Natuurlijk is het resultaat van
-        de Anti-Aging behandeling afhankelijk van de behandeling die we
-        toepassen. Daarom maken we altijd eerst een grondige analyse van jouw
-        huid waarna we een behandelplan en thuisverzorgingsplan op maat maken.
-        Welke behandeling we ook inzetten, we hebben altijd het doel jouw
-        natuurlijke schoonheid naar boven te halen en je huid weer gladder,
-        strakker en egaler te maken voor een frisse en jonge uitstraling… Onze
-        Anti-Aging behandelingen: HydraFacial Fire & Ice Treatment iS CLINICAL
-        Foaming Enzyme Facial iS CLINICAL C-Peptide Peel CIRCADIA Firming
-        Peptide Facial CIRCADIA Gel Peel CIRCADIA
+        <p>
+          What is skin aging? Skin slackening and wrinkles are consequences of
+          the natural aging process of the skin. Skin slackening occurs because
+          deeper connective tissue bands stretch. These normally keep the skin
+          structure and fat compartments together. Because you produce less fat
+          tissue, collagen, and elastin as you get older and because the
+          underlying bone structure shrinks, those bands relax, and so does the
+          skin. This can also cause wrinkles. Wrinkles in facial skin are caused
+          by both hereditary internal and external environmental factors.
+          Anti-Aging treatments at SkinHouse. Wrinkles and sagging skin often
+          give you an older and tired appearance. Many people are bothered by
+          them because they look different than they feel. For example, a frown
+          line can make someone look angry, even though they are not. At
+          SkinHouse, we can target skin slackening and wrinkles effectively.
+          What is the result of the treatment? The result of the Anti-Aging
+          treatment depends on the treatment we apply. That is why we always
+          start with a thorough analysis of your skin, after which we create a
+          tailor-made treatment plan and home care plan. Whatever treatment we
+          use, our goal is always to bring out your natural beauty and make your
+          skin smoother, firmer, and more even for a fresh and youthful
+          appearance… Our Anti-Aging treatments:
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>HydraFacial Fire & Ice Treatment</li>
+          <li>iS CLINICAL Foaming Enzyme Facial</li>
+          <li>iS CLINICAL C-Peptide Peel</li>
+          <li>CIRCADIA Firming Peptide Facial</li>
+          <li>CIRCADIA Gel Peel</li>
+        </ul>
       </>
     ),
   },
@@ -67,34 +111,76 @@ export const treatments: {
     img: "https://images.unsplash.com/photo-1599847896696-7e19dbd9d2e8?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Wat is Hyperpigmentatie? Hyperpigmentatie wordt veroorzaakt doordat
-        melanine – het pigment dat je huid, haar en ogen hun natuurlijke kleur
-        geeft – in bepaalde gebieden overmatig geproduceerd wordt. Je krijgt dan
-        op verschillende plaatsen donkere vlekken op je huid. Die noemen we
-        pigmentvlekken. Deze vlekken variëren vaak in grootte en vorm en kunnen
-        donkerbruin tot zwart van kleur zijn. Hyperpigmentatie komt in
-        verschillende vormen voor. Sproeten, ouderdomsvlekken en vlekken na
-        ernstige acne zijn er voorbeelden van. Hyperpigmentatie komt het vaakst
-        voor bij mensen met een middeldonkere tot donkere huid. Deze bevat
-        namelijk meer melanine en is daardoor vatbaarder voor pigmentvlekken. De
-        oorzaken van hyperpigmentatie kunnen worden verdeeld in drie
-        categorieën: • Hormonaal: een verhoogd oestrogeenniveau kan leiden tot
-        melasma, ook wel &apos;zwangerschapsmasker&apos; genoemd; •
-        Ontstekingsremmend: als een puistje of wondje is genezen kan
-        post-inflammatoire hyperpigmentatie (PIH) optreden. • Door de zon: dit
-        soort hyperpigmentatie is het gevolg van beschadiging door de zon. Deze
-        vorm van hyperpigmentatie noemen we ook wel
-        &apos;ouderdomsvlekken&apos;, al heeft leeftijd niets te maken met de
-        aandoening. Hyperpigmentatie behandelingen bij SkinHouse. Pigmentvlekken
-        in het gezicht kunnen erg opvallend zijn en je onzeker maken. Bij
-        SkinHouse kunnen we pigmentatie doelgericht behandelen. Wat is het
-        resultaat van de behandeling? Na een behandeling tegen pigmentatie zie
-        je snel resultaat. We stimuleren de celvernieuwing in jouw huid waardoor
-        deze egaler wordt en weer gaat stralen. De verkleuringen en vlekjes in
-        de huid worden minder of verdwijnen helemaal. Het is noodzakelijk om na
-        de behandeling (dagelijks) de huid goed te beschermen met een dagcrème
-        SPF50. Onze Hyperpigmentatie behandelingen: HydraFacial Fire & Ice
-        Treatment iS CLINICAL C-Peptide Peel CIRCADIA
+        <p>
+          What is Hyperpigmentation? Hyperpigmentation is caused by melanin -
+          the pigment that gives your skin, hair, and eyes their color. Melanin
+          is produced by cells called melanocytes. When these cells become
+          damaged or unhealthy, it can lead to an overproduction of melanin in
+          certain areas, resulting in patches of skin that appear darker than
+          the surrounding skin. There are several factors that can contribute to
+          hyperpigmentation, including:
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Sun exposure</li>
+          <li>Hormonal changes (such as pregnancy or menopause)</li>
+          <li>Age</li>
+          <li>Acne or other skin injuries</li>
+          <li>Genetics</li>
+        </ul>
+        <p>
+          Hyperpigmentation treatments at SkinHouse. At SkinHouse, we offer a
+          range of treatments that can help reduce the appearance of
+          hyperpigmentation and even out your skin tone. Our treatments are
+          tailored to your specific needs and may include:
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Chemical peels</li>
+          <li>Laser therapy</li>
+          <li>Microdermabrasion</li>
+          <li>Topical treatments</li>
+        </ul>
+        <p>
+          During your initial consultation, we&apos;ll assess your skin and
+          discuss your treatment options with you. We&apos;ll work with you to
+          develop a personalized treatment plan that addresses your concerns and
+          helps you achieve the clear, even complexion you desire.
+        </p>
+        <p>Our Hyperpigmentation treatments:</p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>iS CLINICAL Fire & Ice</li>
+          <li>CIRCADIA Mandeliclear Peel</li>
+          <li>CIRCADIA Pumpkin Peel</li>
+        </ul>
       </>
     ),
   },
@@ -104,41 +190,128 @@ export const treatments: {
     img: "https://images.unsplash.com/photo-1650543679355-0fcf8a621d1a?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Wat is Couperose? Couperose is de aanwezigheid van kleine rode en/of
-        blauwe bloedvaatjes in het gezicht. Het is een onschuldig verschijnsel
-        dat vooral bij mensen met een blanke huid voorkomt. Meestal worden de
-        eerste adertjes vanaf een leeftijd van 30 jaar zichtbaar. De aandoening
-        komt vaker voor bij vrouwen dan bij mannen. Couperose ontstaat doordat
-        oppervlakkige adertjes in de huid verslappen en daardoor wijder worden.
-        Een duidelijke oorzaak van couperose is niet altijd aan te wijzen, maar
-        een aantal factoren en prikkels kunnen van invloed zijn. Dat zijn
-        bijvoorbeeld erfelijkheid, overmatige blootstelling aan zonlicht,
-        huidtype (mensen met een lichter huidtype lijken meer kans te hebben om
-        couperose te ontwikkelen), veelvuldig gebruik van hormoonzalven en
-        -crèmes die corticosteroïd bevatten, een beschadigde huidbarrière,
-        temperatuurschommelingen en alcoholgebruik. Wat is Rosacea? Rosacea is
-        een veelvoorkomende chronische huidaandoening in het gezicht. Ze is te
-        herkennen aan felrode verkleuringen van met name de wangen en neus.
-        Rosacea komt meestal voor tussen het 30e en 50e levensjaar en vaker bij
-        vrouwen dan bij mannen. De precieze oorzaak van rosacea is niet bekend.
-        Wel weten we dat er factoren zijn die de aandoening kunnen verergeren.
-        De belangrijkste hiervan zijn alcohol of sterk gekruid of warm eten,
-        vaatverwijdende geneesmiddelen, temperatuur en klimaat (rosacea is
-        meestal het ergst in de winter), overgevoeligheid voor crèmes,
-        reinigingslotions en dergelijke en hormonen. Couperose en Rosacea
-        behandelingen bij SkinHouse. Als je last hebt van couperose of rosacea
-        kan dit je erg onzeker maken. Bij SkinHouse kunnen we bepaalde vormen
-        van couperose (alleen wanneer er nog een bepaalde activiteit aanwezig is
-        in de haarvaten) en rosacea doelgericht behandelen. Wat is het resultaat
-        van de behandeling? Na een behandeling tegen couperose of rosacea zul je
-        merken dat de roodheid geleidelijk afneemt of zelfs vrijwel volledig
-        verdwijnt. Vaak zijn er voor een optimaal resultaat meerdere
-        behandelingen nodig. Hoeveel behandelingen jij nodig hebt hangt onder
-        andere af van de ernst van de aandoening, maar ook andere factoren
-        spelen een rol. Tijdens het eerste consult maken we een behandelplan op
-        maat, zodat je weet wat je kan verwachten. Onze Couperose en Rosacea
-        behandelingen: Foaming Enzyme Facial iS CLINICAL Honey Enzyme Facial iS
-        CLINICAL
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is Couperose?
+          </strong>{" "}
+          Couperose is the presence of small red and/or blue blood vessels on
+          the face. It is a harmless phenomenon that mainly occurs in people
+          with fair skin. Usually, the first blood vessels become visible from
+          the age of 30. The condition is more common in women than in men.
+          Couperose occurs when superficial blood vessels in the skin relax and
+          therefore widen. A clear cause of couperose is not always
+          identifiable, but several factors and triggers can influence it. These
+          include heredity, excessive sun exposure, skin type (people with
+          lighter skin types seem to have a higher chance of developing
+          couperose), frequent use of hormone ointments and creams containing
+          corticosteroids, a damaged skin barrier, temperature fluctuations, and
+          alcohol consumption.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is Rosacea?
+          </strong>{" "}
+          Rosacea is a common chronic skin condition on the face. It can be
+          recognized by bright red discolorations, especially on the cheeks and
+          nose. Rosacea usually occurs between the ages of 30 and 50 and more
+          often in women than in men. The exact cause of rosacea is not known.
+          However, we know that there are factors that can exacerbate the
+          condition. The most important of these are alcohol or strongly spiced
+          or hot food, vasodilator drugs, temperature and climate (rosacea is
+          usually worst in winter), sensitivity to creams, cleansing lotions,
+          and the like, and hormones.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Couperose and Rosacea treatments at SkinHouse.
+          </strong>{" "}
+          If you suffer from couperose or rosacea, this can make you feel very
+          insecure. At SkinHouse, we can treat certain forms of couperose (only
+          when there is still a certain activity present in the blood vessels)
+          and rosacea in a targeted manner.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is the result of the treatment?
+          </strong>{" "}
+          After a treatment for couperose or rosacea, you will notice that the
+          redness gradually decreases or even disappears almost completely.
+          Often, multiple treatments are needed for optimal results. How many
+          treatments you need depends, among other things, on the severity of
+          the condition, but other factors also play a role. During the first
+          consultation, we create a tailor-made treatment plan so you know what
+          to expect.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Our Couperose and Rosacea treatments:
+          </strong>
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Foaming Enzyme Facial</li>
+          <li>iS CLINICAL Honey Enzyme Facial</li>
+          <li>iS CLINICAL</li>
+        </ul>
       </>
     ),
   },
@@ -148,33 +321,106 @@ export const treatments: {
     link: "acne",
     description: (
       <>
-        Wat is Acne? Acne is een veelvoorkomende huidaandoening die er van
-        persoon tot persoon heel verschillend uit kan zien. Zo heeft de een
-        enkel last van wat onzuiverheden, terwijl de ander kampt met hevige
-        ontstekingen. Een bekend misverstand is dat alleen jongeren te maken
-        hebben met acne. Ook op latere leeftijd kun je er last van hebben.
-        Talgklieren kunnen verstopt raken door overmatige talgproductie in
-        combinatie met een ophoping van dode huidcellen, of er kan een hormonale
-        disbalans ontstaan waardoor de talgproductie omhoog gaat. Ook de P.
-        acnes-bacterie (Propionibacterium acnes) kan acne veroorzaken. Deze
-        bacterie beschadigt de wand van het kanaal waar talg wordt afgevoerd,
-        waardoor de talg in de omliggende huid terechtkomt. Vaak leidt dit tot
-        onderhuidse ontstekingen, roodheid en puistjes. Acne behandelingen bij
-        SkinHouse. We kunnen acne op verschillende manieren doelgericht
-        behandelen. Welke behandeling voor jou de beste keuze is hangt af van
-        een aantal factoren, bijvoorbeeld je persoonlijke wensen, hoe actief de
-        acne is en welk huidtype je hebt. Bij SkinHouse bestuderen en analyseren
-        we jouw huid, levensstijl en voedingspatroon grondig om te bepalen welke
-        acnebehandeling het beste resultaat geeft. Wat is het resultaat van de
-        behandeling? Vlak na de behandeling zul je merken dat je huid wat rood
-        en gezwollen is. Dat is normaal en trekt vanzelf weg. Kort na de
-        behandeling kan het zijn dat ontstekingen en onzuiverheden even kort
-        kunnen toenemen. Dit ontstaat door de &apos;purging fase&apos;. Door het
-        &apos;naar boven halen&apos; van afvalstoffen kan het zijn dat je huid
-        even wat meer onzuiverheden ontwikkelt. Zodra deze fase voorbij is zal
-        je huid geleidelijk opklaren. Onze Acne behandelingen: HydraFacial Fire
-        & Ice Treatment iS CLINICAL Exfoliating Clear Skin Facial iS CLINICAL
-        Gel Peel CIRCADIA
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is Acne?
+          </strong>{" "}
+          Acne is a common skin condition that can look very different from
+          person to person. While some only have a few blemishes, others
+          struggle with severe inflammation. A common misconception is that only
+          young people deal with acne. You can also have it at a later age.
+          Sebaceous glands can become clogged due to excessive sebum production
+          combined with a buildup of dead skin cells, or a hormonal imbalance
+          can occur, causing increased sebum production. The P. acnes bacterium
+          (Propionibacterium acnes) can also cause acne. This bacterium damages
+          the wall of the canal where sebum is excreted, causing the sebum to
+          enter the surrounding skin. This often leads to subcutaneous
+          inflammation, redness, and pimples.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Acne treatments at SkinHouse.
+          </strong>{" "}
+          We can treat acne in various targeted ways. Which treatment is best
+          for you depends on several factors, such as your personal preferences,
+          how active the acne is, and your skin type. At SkinHouse, we
+          thoroughly study and analyze your skin, lifestyle, and diet to
+          determine which acne treatment yields the best results.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is the result of the treatment?
+          </strong>{" "}
+          Immediately after the treatment, you may notice that your skin is
+          slightly red and swollen. This is normal and will disappear on its
+          own. Shortly after the treatment, it may be that inflammations and
+          impurities briefly increase. This is due to the &apos;purging
+          phase.&apos; By &apos;bringing up&apos; waste products, your skin may
+          develop more impurities for a while. Once this phase is over, your
+          skin will gradually clear up.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Our Acne treatments:
+          </strong>
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>HydraFacial</li>
+          <li>Fire & Ice Treatment</li>
+          <li>iS CLINICAL Exfoliating Clear Skin Facial</li>
+          <li>iS CLINICAL Gel Peel</li>
+          <li>CIRCADIA</li>
+        </ul>
       </>
     ),
   },
@@ -184,30 +430,104 @@ export const treatments: {
     img: "https://plus.unsplash.com/premium_photo-1674740765678-83ea646068b0?q=80&w=3086&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Wat is gevoelige huid? Een vochtarme of droge huid is erg vervelend. Een
-        huid die een tekort heeft aan vocht en daardoor droog aanvoelt is
-        gevoeliger voor andere huidproblemen zoals wondjes en acne. Je kunt ook
-        last krijgen van jeuk, schilfertjes en eczeem. Een vochtarme huid kan er
-        grauw en dof uitzien. Een droge huid komt veel voor en kan verschillende
-        oorzaken hebben. Een huid die vaak in aanraking komt met water en zeep
-        kan bijvoorbeeld erg uitdrogen. Water en zeep zorgen er namelijk voor
-        dat het natuurlijke vetlaagje van de huid verdwijnt. Ook in het
-        winterseizoen is de kans op een vochtarme huid groter. Denk aan een
-        droge atmosfeer in kamers met centrale verwarming en de koude droge
-        lucht in de wintermaanden buiten. Ouderdom speelt ook een rol. Met name
-        op de onderbenen en onderarmen verliest de oudere huid het vermogen om
-        vocht vast te houden. Dit komt doordat de barrièrefunctie van de
-        opperhuid achteruitgaat. In de lederhuid wordt het bindweefsel stugger
-        en minder elastisch. Sensitive behandelingen bij SkinHouse. Een
-        behandeling van de vochtarme huid is erop gericht de vochtbalans in je
-        huid weer op peil te brengen. Bij SkinHouse kunnen we een vochtarme huid
-        doelgericht behandelen. Wat is het resultaat van de behandeling? Na een
-        behandeling zal je huid minder droog aanvoelen. Doordat de huid weer
-        gehydrateerd is, zul je merken dat deze haar natuurlijke glow
-        terugkrijgt. Ook zorgt de herstelde vochtbalans ervoor dat je huid beter
-        beschermd is tegen schadelijke invloeden van buitenaf. Onze Sensitive
-        behandelingen: HydraFacial Foaming Enzyme Facial iS CLINICAL Honey
-        Enzyme Facial iS CLINICAL Gel Peel CIRCADIA
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is sensitive skin?
+          </strong>{" "}
+          Dry or dehydrated skin is very annoying. A skin that is lacking in
+          moisture and therefore feels dry is more sensitive to other skin
+          problems such as wounds and acne. You may also experience itching,
+          flakes, and eczema. A dehydrated skin can look dull and lifeless. Dry
+          skin is common and can have various causes. For example, skin that
+          frequently comes into contact with water and soap can dry out a lot.
+          Water and soap cause the natural lipid layer of the skin to disappear.
+          Also, the winter season increases the risk of dehydrated skin. Think
+          of a dry atmosphere in rooms with central heating and the cold dry air
+          in the winter months outside. Age also plays a role. Especially on the
+          lower legs and forearms, the older skin loses the ability to retain
+          moisture. This is because the barrier function of the epidermis
+          deteriorates. The connective tissue in the dermis becomes stiffer and
+          less elastic.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Sensitive treatments at SkinHouse.
+          </strong>{" "}
+          Treatment of dehydrated skin is aimed at restoring the moisture
+          balance in your skin. At SkinHouse, we can treat dehydrated skin in a
+          targeted manner.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is the result of the treatment?
+          </strong>{" "}
+          After a treatment, your skin will feel less dry. Because the skin is
+          hydrated again, you will notice that it regains its natural glow. The
+          restored moisture balance also ensures that your skin is better
+          protected against harmful external influences.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Our Sensitive treatments:
+          </strong>
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>HydraFacial</li>
+          <li>Foaming Enzyme Facial</li>
+          <li>iS CLINICAL Honey Enzyme Facial</li>
+          <li>iS CLINICAL Gel Peel</li>
+          <li>CIRCADIA</li>
+        </ul>
       </>
     ),
   },
@@ -217,63 +537,178 @@ export const treatments: {
     img: "https://images.unsplash.com/photo-1457342813143-a1ae27448a82?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Zwangerschap gelaatsbehandeling bij SkinHouse. Tijdens de zwangerschap
-        zorgen hormoon schommelingen voor het veranderen van een gezonde huid
-        naar droog, vettig en zelfs acne of een zwangerschapsmasker. Wij gaan de
-        huidconditie tijdens de zwangerschap zo goed mogelijk behouden en zelfs
-        verbeteren! Een gezichtsbehandeling is altijd lekker, maar wanneer je
-        zwanger bent mag je jezelf toch wel extra verwennen door te ontspannen
-        en je huid extra aandacht te geven tijdens een gezichtsbehandeling.
-        Afhankelijk van de conditie van de huid op dat moment kiezen we de
-        passende producten. Wanneer je zwanger bent kan je last krijgen van een
-        onrustige en onzuivere huid. Dan gaan we producten gebruiken die de huid
-        diep reinigen en ontstekingsremmend werken. Er zijn ook vrouwen die
-        tijdens hun zwangerschap een hele grauwe huid krijgen. Dan kiezen we
-        natuurlijk weer andere producten die bijvoorbeeld gericht zijn op
-        anti-aging, vochtregulatie of tegen pigmentvlekjes. We leggen je extra
-        in de watten – ons Garieni Soft Kussen wellness bed zorgt ervoor dat je
-        tijdens de behandeling je rug en benen kan laten rusten…. Wat is
-        belangrijk na de behandeling? Gedurende de zwangerschap zijn de hormonen
-        extra actief waardoor er sneller hyperpigmentaties ontstaan, denk
-        hierbij bijvoorbeeld aan een zwangerschapsmaker (melasma). Het is dan
-        ook noodzakelijk om de huid goed te beschermen door middel van een
-        zonnebrandcrème SPF50. Onze Zwangerschap behandelingen: Foaming Enzyme
-        Facial iS CLINICAL Honey Enzyme Facial iS CLINICAL
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Pregnancy facial treatment at SkinHouse.
+          </strong>{" "}
+          During pregnancy, hormonal fluctuations cause healthy skin to change
+          to dry, oily, and even acne or a pregnancy mask. We will maintain and
+          even improve skin condition during pregnancy! A facial treatment is
+          always nice, but when you are pregnant, you can pamper yourself extra
+          by relaxing and giving your skin extra attention during a facial
+          treatment. Depending on the condition of the skin at that time, we
+          choose the appropriate products. When you are pregnant, you may
+          experience restless and impure skin. Then we will use products that
+          deeply cleanse the skin and have anti-inflammatory effects. There are
+          also women who get a very dull complexion during their pregnancy.
+          Then, of course, we choose different products that are focused on
+          anti-aging, moisture regulation, or against pigmentation spots.
+          We&apos;ll pamper you extra - our Garieni Soft Cushion wellness bed
+          allows you to rest your back and legs during the treatment….{" "}
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is important after the treatment?
+          </strong>{" "}
+          During pregnancy, hormones are extra active, which can lead to faster
+          hyperpigmentation, such as a pregnancy mask (melasma). It is therefore
+          necessary to protect the skin well with a sunscreen SPF50.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Our Pregnancy treatments:
+          </strong>
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Foaming Enzyme Facial</li>
+          <li>iS CLINICAL Honey Enzyme Facial</li>
+          <li>iS CLINICAL</li>
+        </ul>
       </>
     ),
   },
   {
-    title: "Men&apos;s Care",
+    title: "Men's Care",
     link: "mens-care",
     img: "https://images.unsplash.com/photo-1584473655723-736035360fc2?q=80&w=2722&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Men&apos;s Care behandelingen bij SkinHouse. Gelaatsbehandelingen voor
-        mannen hebben vaak een aantal vaste onderdelen, waaronder reinigen,
-        exfoliëren, een masker en een hydraterende crème. De huidverzorging
-        begint met een reiniging en een scrub/peel waarbij dode huidcellen
-        worden verwijderd. Ook onzuiverheden zoals puistjes en mee-eters worden
-        verwijderd. Dit kan soms wat gevoelig zijn, maar het resultaat mag er
-        wezen. Wanneer de huid schoon is, gaan wij voor een diepe hydratatie
-        zorgen…. maar eerst een ontspannende massage 🙂 Omdat de mannenhuid vaak
-        droger is dan die van een vrouw, wordt er een intens voedende crème
-        gebruikt, die niet vet is. Je verlaat het salon met een schone en frisse
-        huid die weer zacht en gezond aanvoelt. GOED OM TE WETEN Overweeg je een
-        gelaatsbehandeling voor mannen? Dan vind je hieronder nog wat bruikbare
-        tips: Een gelaatsbehandeling voor mannen kan volledig aan je wensen en
-        behoeften worden aangepast. Heb je bijzondere wensen? Spreek deze dan
-        van tevoren uit. Scheer je huid niet vlak voor een gelaatsbehandeling.
-        Je huid kan beschadigen en daardoor extra gevoelig zijn voor sommige
-        producten. Het is daarom beter om je de avond of dag van tevoren te
-        scheren. DE WETENSCHAPPELIJKE FEITEN OP EEN RIJTJE Is je huid ruw, droog
-        en onzuiver en kan je gezicht wel een onderhoudsbeurt gebruiken? Dan
-        zijn onze Men&apos;s Care behandelingen een goede oplossing. Er zijn
-        allerlei redenen waarom je huid wat gevoeliger of onrustiger kan zijn en
-        ook je levensstijl heeft veel effect op de conditie van je huid. Een
-        gelaatsbehandeling kan de schade beperken en herstellen. Bovendien is
-        het heerlijk ontspannend en zit je na een behandeling weer boordevol
-        nieuwe energie. Onze Men&apos;s Care behandelingen: HydraFacial Fire &
-        Ice Treatment iS CLINICAL Exfoliating Clear Skin Facial iS CLINICAL
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Men&apos;s Care treatments at SkinHouse.
+          </strong>{" "}
+          Facial treatments for men often have a number of fixed components,
+          including cleansing, exfoliating, a mask, and a moisturizing cream.
+          Skin care starts with cleansing and a scrub/peel to remove dead skin
+          cells. Also, impurities such as pimples and blackheads are removed.
+          This can sometimes be a bit sensitive, but the result is worth it.
+          Once the skin is clean, we will ensure deep hydration.... but first a
+          relaxing massage 🙂 Because men&apos;s skin is often drier than that
+          of women, an intensely nourishing cream is used that is not greasy.
+          You leave the salon with clean and fresh skin that feels soft and
+          healthy again.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            GOOD TO KNOW
+          </strong>
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>
+            Consider a facial treatment for men? Below are some useful tips:
+          </li>
+          <li>
+            A facial treatment for men can be completely tailored to your wishes
+            and needs. Do you have special wishes? Be sure to mention them
+            beforehand.
+          </li>
+          <li>
+            Do not shave your skin just before a facial treatment. Your skin can
+            be damaged and therefore extra sensitive to some products. It is
+            therefore better to shave the evening or day before.
+          </li>
+        </ul>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            THE SCIENTIFIC FACTS AT A GLANCE
+          </strong>
+        </p>
+        <p>
+          If your skin is rough, dry, and impure and your face could use some
+          maintenance, our Men&apos;s Care treatments are a good solution. There
+          are all sorts of reasons why your skin can be a bit more sensitive or
+          restless, and your lifestyle also has a lot of effect on the condition
+          of your skin. A facial treatment can limit and repair the damage.
+          Moreover, it is wonderfully relaxing, and after
+        </p>
       </>
     ),
   },
@@ -283,52 +718,224 @@ export const treatments: {
     img: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Waarom is “Scalp Health” zo belangrijk? Een gebrekkige gezondheid van de
-        hoofdhuid is een belangrijke reden voor beschadigd en uitdunnend haar.
-        “De voordelen van een gezonde hoofdhuid zijn van cruciaal belang, maar
-        nog niet gekend bij het grote publiek. elke patiënt die bezorgd is om
-        uitdunnend of beschadigd haar kan er baat bij hebben om de gezondheid
-        van zijn of haar hoofdhuid te verbeteren. Een gezonde hoofdhuid vormt de
-        basis voor gezonder en voller ogend haar.” Keravive Scalp Care bij
-        SkinHouse. Een unieke 3-stappenbehandeling voor de hoofdhuid bestaande
-        uit een klinische behandeling en een spray voor 30 dagen. Het principe
-        Gezond haar begint met een gezonde hoofdhuid: HydraFacial Keravive is
-        een unieke en ontspannende behandeling die ontworpen is om de hoofdhuid
-        te reinigen, te voeden en te hydrateren voor dikker en gezonder haar.
-        HydraFacial Keravive herstelt de gezondheid van de hoofdhuid met een
-        exclusieve mix van peptiden en groeifactoren van de nieuwste generatie.
-        De slechte gezondheid van de hoofdhuid kan worden gekenmerkt door :
-        Droge huid Verstopte haarfollikels Dode huidcellen. Slechte doorbloeding
-        Dit kan een belangrijke oorzaak zijn van beschadigd en dunner wordend
-        haar en kan de groei van gezond haar afremmen. Een behandeling in 3
-        stappen De HydraFacial technologie reinigt, exfolieert en stimuleert de
-        hoofdhuid terwijl het Keravive Complex diephydrateert en voedt met een
-        exclusieve cocktail van peptiden, proteïnen en groeifactoren. De
-        behandeling bestaat uit drie sessies van een uur met een maand interval.
-        Net als de HydraFacial gezichtsbehandeling wordt het Keravive protocol
-        in drie stappen uitgevoerd. 1. Reinigen + Exfoliëren De HydraFacial
-        Vortex (“aspiratie”) technologie en een ontspannende en pijnloze
-        hydratatie verwijderen vuil, talg, dode huid en reinigen de
-        haarfollikels, terwijl ook de bloedsomloop gestimuleerd wordt. 2.
-        Hydrateren + Voeden Geoptimaliseerde toepassing van een exclusieve mix
-        van 5 biomimetische groeifactoren en 2 huidproteïnen. Epidermale
-        groeifactor (EGF). Vasculaire endotheliale groeifactor (VEGF).
-        Fibroblasten groeifactor (bFGF). THYMOSIN BETA-4 (thymosine beta – 4).
-        3. Opvolging + Optimalisatie Dagelijks gebruik van HydraFacial Keravive
-        Peptide Complex Spray verbetert de behandeling die in de kliniek wordt
-        uitgevoerd en zorgt voor dagelijkse stimulatie en voeding van zowel de
-        hoofdhuid als de haarfollikels. De techniek De HydraFacial Keravive
-        behandeling is ontspannend en volledig pijnloos. Een licht verwarmend
-        gevoel of een lichte jeuk van de hoofdhuid kunnen dezelfde dag nog
-        gevoeld worden. Wat is het resultaat van de behandeling? HydraFacial
-        Keravive optimaliseert het natuurlijke vermogen van de hoofdhuid om
-        keratine te produceren, stimuleert de bloedvaten en verbetert de
-        microcirculatie. Het resultaat? Gezonder, dikker en volumineuzer haar!
-        Een maand na de eerste sessie is verbetering zichtbaar en het haar
-        verbetert tijdens de behandeling om twee maanden na de derde sessie
-        optimaal te worden. HydraFacial Keravive is ook een ideale voorbereiding
-        op een PRP-behandeling en kan worden opgenomen in een globaal plan voor
-        haarstimulatie en haargroei.
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Why is &apos;Scalp Health&apos; so important?
+          </strong>{" "}
+          Poor scalp health is a major reason for damaged and thinning hair.
+          &apos;The benefits of a healthy scalp are crucial but not yet known to
+          the general public. Every patient concerned about thinning or damaged
+          hair can benefit from improving the health of his or her scalp. A
+          healthy scalp is the basis for healthier and fuller-looking
+          hair.&apos;
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Keravive Scalp Care at SkinHouse.
+          </strong>{" "}
+          A unique 3-step treatment for the scalp consisting of a clinical
+          treatment and a spray for 30 days.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            The principle
+          </strong>
+        </p>
+        <p>
+          Healthy hair starts with a healthy scalp: HydraFacial Keravive is a
+          unique and relaxing treatment designed to cleanse, nourish, and
+          hydrate the scalp for thicker and healthier hair. HydraFacial Keravive
+          restores scalp health with an exclusive blend of peptides and growth
+          factors of the latest generation.
+        </p>
+        <p>Poor scalp health can be characterized by:</p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Dry skin</li>
+          <li>Clogged hair follicles</li>
+          <li>Dead skin cells</li>
+          <li>Bad circulation</li>
+        </ul>
+        <p>
+          This can be a major cause of damaged and thinning hair and can inhibit
+          the growth of healthy hair.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            A 3-step treatment
+          </strong>
+        </p>
+        <p>
+          The HydraFacial technology cleanses, exfoliates, and stimulates the
+          scalp while the Keravive Complex hydrates and nourishes with an
+          exclusive cocktail of peptides, proteins, and growth factors. The
+          treatment consists of three one-hour sessions with a month interval.
+          Like the HydraFacial facial treatment, the Keravive protocol is
+          performed in three steps:
+        </p>
+        <ol>
+          <li>
+            <strong
+              className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+            >
+              Cleansing + Exfoliating:
+            </strong>{" "}
+            The HydraFacial Vortex (&apos;suction&apos;) technology and a
+            relaxing and painless hydration remove dirt, sebum, dead skin, and
+            cleanse the hair follicles, while also stimulating circulation.
+          </li>
+          <li>
+            <strong
+              className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+            >
+              Hydrating + Nourishing:
+            </strong>{" "}
+            Optimized application of an exclusive blend of 5 biomimetic growth
+            factors and 2 skin proteins:
+            <ul
+              className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+            >
+              <li>Epidermal Growth Factor (EGF)</li>
+              <li>Vascular Endothelial Growth Factor (VEGF)</li>
+              <li>Fibroblast Growth Factor (bFGF)</li>
+              <li>THYMOSIN BETA-4 (thymosine beta-4)</li>
+            </ul>
+          </li>
+          <li>
+            <strong
+              className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+            >
+              Follow-up + Optimization:
+            </strong>{" "}
+            Daily use of HydraFacial Keravive Peptide Complex Spray enhances the
+            treatment performed in the clinic and provides daily stimulation and
+            nourishment of both the scalp and hair follicles.
+          </li>
+        </ol>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            The technique
+          </strong>
+        </p>
+        <p>
+          The HydraFacial Keravive treatment is relaxing and completely
+          painless. A slight warming sensation or mild itching of the scalp may
+          be felt the same day.
+        </p>
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            What is the result of the treatment?
+          </strong>{" "}
+          HydraFacial Keravive optimizes the scalp&apos;s natural ability to
+          produce keratin, stimulates blood vessels, and improves
+          microcirculation. The result? Healthier, thicker, and more voluminous
+          hair! Improvement is visible one month after the first session, and
+          hair improves during the treatment to become optimal two months after
+          the third session. HydraFacial Keravive is also an ideal preparation
+          for a PRP treatment and can be included in an overall plan for hair
+          stimulation and growth.
+        </p>
       </>
     ),
   },
@@ -338,14 +945,46 @@ export const treatments: {
     img: "https://plus.unsplash.com/premium_photo-1664301671693-54d2a96b2d75?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Complete pedicure behandeling: • voetinspectie en advies • knippen van
-        nagels • verzorging van nagels en nagelomgeving • behandeling van
-        ingegroeide nagels • verwijderen van eelt en likdoorns • behandeling van
-        kloven • korte ontspanningsmassage met gebruik van Gehwol producten •
-        Deze behandeling is zeker ook geschikt voor diabetici. Om de voeten
-        gezond te houden is het belangrijk om elke 6 tot 8 weken een
-        professionele voetverzorging in te plannen. Tevens is het mogelijk om de
-        Gehwol verzorgingsproducten aan te kopen of te bestellen.
+        <p>
+          <strong
+            className="
+              font-bold
+              text-lg
+              text-gray-800
+              font-Novela
+              mt-4
+              mb-2
+              block
+            "
+          >
+            Complete pedicure treatment:
+          </strong>
+        </p>
+        <ul
+          className="
+              list-disc
+              list-inside
+              ml-4
+              space-y-2
+              text-sm
+              text-gray-600
+              font-light
+            "
+        >
+          <li>Foot inspection and advice</li>
+          <li>Clipping nails</li>
+          <li>Nail and periungual care</li>
+          <li>Treatment of ingrown nails</li>
+          <li>Removal of calluses and corns</li>
+          <li>Treatment of cracks</li>
+          <li>Short relaxation massage using Gehwol products</li>
+        </ul>
+        <p>
+          This treatment is certainly also suitable for diabetics. To keep the
+          feet healthy, it is important to schedule a professional foot care
+          every 6 to 8 weeks. It is also possible to purchase or order Gehwol
+          care products.
+        </p>
       </>
     ),
   },
