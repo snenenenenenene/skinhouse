@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 "use client";
 import { treatments } from "@/app/data";
 import { useEffect, useState } from "react";
@@ -9,7 +10,13 @@ export default function Treatment({
 }) {
   const { treatment } = params;
   const [treatmentData, setTreatmentData] = useState<
-    { title: string } | undefined
+    | {
+        title: string;
+        img?: string;
+        link: string;
+        description: React.ReactNode;
+      }
+    | undefined
   >();
 
   useEffect(() => {
