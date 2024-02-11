@@ -29,7 +29,7 @@ export default function Treatment({
     <>
       <div className="flex flex-col relative border-r border-light-linen  overflow-x-hidden w-full pt-[2rem] h-full">
         <div className="overflow-auto px-[5%] flex-grow  pb-24 w-full text-justify">
-          <h1 className="text-3xl font-bold font-Novela pb-[1rem]">
+          <h1 className="text-3xl text-[2.5rem] pb-[4rem] font-normal font-Novela">
             {treatmentData?.title}
           </h1>
           <span>{treatmentData?.description && treatmentData.description}</span>
