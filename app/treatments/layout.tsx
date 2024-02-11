@@ -1,13 +1,8 @@
+/* eslint-disable no-undef */
 import Link from "next/link";
 import MailingList from "../components/mailingList";
 import { treatments } from "../data";
-// eslint-disable-next-line no-undef
-export default function Layout({
-  children,
-}: Readonly<{
-  // eslint-disable-next-line no-undef
-  children: React.ReactNode;
-}>) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex flex-col">
       <div className="border-t border-light-linen h-full w-full flex">
