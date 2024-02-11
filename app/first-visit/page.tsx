@@ -11,12 +11,12 @@ export default function FirstVisit() {
             into facial care? Fear not!
             <br />
             <br />
-            Embark on a journey tailored to your skin's desires through a
+            Embark on a journey tailored to your skin&apos;s desires through a
             personalized consultation, where I delve into your skincare
             aspirations. With a meticulous skin analysis, I unveil the
-            intricacies of your skin's needs. As your skin whisperer, I guide
-            you through a bespoke skincare ritual, infusing my recommendations
-            seamlessly into your inaugural facial treatment.
+            intricacies of your skin&apos;s needs. As your skin whisperer, I
+            guide you through a bespoke skincare ritual, infusing my
+            recommendations seamlessly into your inaugural facial treatment.
             <br />
             <br />
             Your skin, a canvas of uniqueness, deserves nothing but the utmost
