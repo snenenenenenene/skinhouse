@@ -6,7 +6,7 @@ import Product from "./components/product";
 export default function Home() {
   return (
     <main className="">
-      <div className="flex w-full h-[50rem] pt-16 pb-[12rem]">
+      <div className="flex w-full h-[50rem] pb-[12rem]">
         <section className="flex w-full h-full relative">
           <picture className="pr-20 pt-[5rem]">
             <img
@@ -17,10 +17,17 @@ export default function Home() {
         </section>
         <section className="flex w-full h-full flex-col">
           <picture className="pr-20">
-            <img
+            <video
+              className="bg-green-900 w-full h-[25rem] object-cover"
+              autoPlay
+              loop
+              muted
+              src="/video.mp4"
+            />
+            {/* <img
               src="https://images.unsplash.com/photo-1585945037805-5fd82c2e60b1?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               className="bg-green-900 w-full h-[20rem] object-cover"
-            />
+            /> */}
           </picture>
         </section>
         <section className="flex w-full h-full">
