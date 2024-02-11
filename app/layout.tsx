@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Loading from "./components/loading";
 import Navbar from "./components/navbar";
 import "./globals.css";
@@ -86,6 +87,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="relative bg-light-alabaster text-light-blacktext font-Basier flex flex-col w-full h-full pt-32 pb-4 px-[5%]">
         <Loading />
+        <Analytics />
         <Navbar />
         {children}
       </body>
