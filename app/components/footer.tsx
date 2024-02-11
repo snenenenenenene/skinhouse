@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="border-t-2 border-light-linen pt-16 pb-8 grid grid-cols-4">
+    <div className="border-t-2 border-light-linen pt-16 pb-8 grid grid-cols-1 sm:grid-cols-4">
       <section className="flex flex-col">
         <h2 className="text-2xl font-bold mb-4">SkinHouse</h2>
         <span className="flex flex-col">

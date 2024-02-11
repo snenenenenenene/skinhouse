@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="flex w-full h-[50rem] pb-[12rem]">
-        <section className="flex w-full h-full relative">
+        <section className="hidden sm:flex w-full h-full relative">
           <picture className="pr-20 pt-[5rem]">
             <img
               className="w-full h-[25rem] object-cover"
@@ -16,7 +16,7 @@ export default function Home() {
             />
           </picture>
         </section>
-        <section className="flex w-full h-full flex-col">
+        <section className="hidden sm:flex w-full h-full flex-col">
           <picture className="pr-20">
             <video
               className="w-full h-[25rem] object-cover"
@@ -31,7 +31,7 @@ export default function Home() {
             /> */}
           </picture>
         </section>
-        <section className="flex w-full h-full">
+        <section className="hidden sm:flex w-full h-full">
           <picture className="pl-24 pt-[5rem]">
             <img
               src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2tpbmNhcmV8ZW58MHx8MHx8fDA%3D"
@@ -39,7 +39,7 @@ export default function Home() {
             />
           </picture>
         </section>
-        <section className="flex w-full h-full">
+        <section className="hidden sm:flex w-full h-full">
           <picture className="pl-24 pt-[10rem]">
             <img
               src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW5jYXJlfGVufDB8fDB8fHww"
@@ -47,7 +47,7 @@ export default function Home() {
             />
           </picture>
         </section>
-        <div className="flex flex-col absolute top-[32rem] ml-[19rem] mt-8">
+        <div className="flex flex-col absolute sm:top-[32rem] sm:ml-[19rem] mt-8">
           <span className="flex gap-x-2 text-light-blackasset">
             <p>HydraFacial™</p>
             <p>-</p>
@@ -75,8 +75,8 @@ export default function Home() {
           src="https://images.unsplash.com/photo-1629380150561-5fe77dab7fc6?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </div>
-      <div className="border-y-2 border-light-linen py-[8rem] px-[1rem] w-[90%] max-w-[320rem] mx-auto flex justify-center">
-        <section className="flex flex-col gap-y-[2rem] w-1/3 mr-[4vw]">
+      <div className="border-y-2 border-light-linen py-[8rem] px-[1rem] w-[90%] max-w-[320rem] mx-auto flex sm:flex-row flex-col justify-center">
+        <section className="flex flex-col gap-y-[2rem] w-full sm:w-1/3 mr-[4vw]">
           <h1 className="text-[2.25rem] font-Novela">About me</h1>
           <p className="text-[1rem] mb-[20vh]">
             I create a place full of passion, knowledge, and care for the skin.
@@ -94,8 +94,8 @@ export default function Home() {
             Everything with attention and care for the needs of your skin.
           </p>
         </section>
-        <section className="flex flex-col gap-y-[2rem] w-2/3 justify-start relative">
-          <div className="w-[80%] flex h-[25rem] transition-all duration-300 ease-in-out sticky top-40">
+        <section className="flex flex-col gap-y-[2rem] w-full sm:w-2/3 justify-start relative">
+          <div className="w-full sm:w-[80%] flex h-[25rem] transition-all duration-300 ease-in-out sticky top-40">
             <picture className="flex w-full h-full">
               <img
                 className="object-cover flex w-full h-full"
@@ -111,22 +111,25 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <div className="py-[8rem] w-[90%] max-w-[320rem] mx-auto flex flex-col justify-center">
+      <div className="sm:py-[8rem] sm:pt-[0rem] pt-[8rem] sm:w-[90%] sm:max-w-[320rem] mx-auto flex flex-col justify-center">
         <h1 className="text-[2.25rem] font-Novela mb-[3.5rem] h-[3.5rem]">
           Treatments
         </h1>
-        <section className="flex w-full h-[35vw] gap-[2.5rem]">
-          <Link href="/treatments/feel-good" className="w-full h-full flex">
+        <section className="flex sm:flex-row flex-col w-full h-full sm:h-[35vw] gap-[2.5rem]">
+          <Link
+            href="/treatments/feel-good"
+            className="w-full aspect-square sm:h-full flex"
+          >
             <article className="flex w-full h-full relative overflow-hidden">
-              <picture className="flex w-full h-full">
+              <picture className="flex w-full h-full aspect-square">
                 <img
                   className="object-cover flex w-full h-full brightness-50"
                   src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 />
               </picture>
-              <span className="absolute w-full h-full p-[3.5rem] flex flex-col text-light-white gap-y-[2rem] justify-end">
+              <span className="absolute w-full h-full p-[3.5rem] flex flex-col text-light-white gap-y-[2rem] sm:justify-end">
                 <h2 className="text-[2.25rem] font-normal">Hydrafacial</h2>
-                <p className="text-[1rem]">
+                <p className="text-[1rem] sm:visible invisible">
                   HydraFacial™ is geschikt voor alle huidtypes en de aangewezen
                   behandeling als je een vermoeide en vale huid hebt, een
                   rijpere huid met verslapping, lijntjes en kraaienpootjes,
@@ -137,17 +140,20 @@ export default function Home() {
               </span>
             </article>
           </Link>
-          <Link href="/treatments/feel-good" className="w-full h-full flex">
+          <Link
+            href="/treatments/feel-good"
+            className="w-full aspect-square sm:h-full flex"
+          >
             <article className="flex w-full h-full relative overflow-hidden">
-              <picture className="flex w-full h-full">
+              <picture className="flex w-full h-full aspect-square">
                 <img
                   className="object-cover flex w-full h-full brightness-50"
                   src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 />
               </picture>
-              <span className="absolute w-full h-full p-[3.5rem] flex flex-col text-light-white gap-y-[2rem] justify-end">
+              <span className="absolute w-full h-full p-[3.5rem] flex flex-col text-light-white gap-y-[2rem] sm:justify-end">
                 <h2 className="text-[2.25rem] font-normal">Aesthetics</h2>
-                <p className="text-[1rem]">
+                <p className="text-[1rem] sm:visible invisible">
                   Based on an intake conversation, I get to know your
                   preferences regarding skincare. Through a skin analysis, I
                   also learn about the needs of your skin. This way, as a skin
@@ -168,7 +174,7 @@ export default function Home() {
             selected cosmetics recommended by Eliza.
           </p>
         </span>
-        <div className="grid grid-cols-3 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-3 w-full">
           {products
             .filter((_, i) => i < 6)
             .map((product) => (

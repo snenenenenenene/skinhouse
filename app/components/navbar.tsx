@@ -24,7 +24,7 @@ export default function Navbar() {
   }, [lastScrollTop]);
   return (
     <nav
-      className={`z-50 transition-all duration-700 ease-in-out pt-16 px-[5%] fixed flex w-full top-0 left-0 ${
+      className={`hidden sm:flex z-50 transition-all duration-700 ease-in-out pt-16 px-[5%] fixed w-full top-0 left-0 ${
         scrollDir === "scrolling down"
           ? "bg-transparent text-transparent"
           : "backdrop-blur-xl bg-light-alabaster"
