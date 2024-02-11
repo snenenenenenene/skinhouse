@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 export const treatments: {
   title: string;
   img?: string;
@@ -78,22 +79,22 @@ export const treatments: {
         namelijk meer melanine en is daardoor vatbaarder voor pigmentvlekken. De
         oorzaken van hyperpigmentatie kunnen worden verdeeld in drie
         categorieën: • Hormonaal: een verhoogd oestrogeenniveau kan leiden tot
-        melasma, ook wel ‘zwangerschapsmasker’ genoemd; • Ontstekingsremmend:
-        als een puistje of wondje is genezen kan post-inflammatoire
-        hyperpigmentatie (PIH) optreden. • Door de zon: dit soort
-        hyperpigmentatie is het gevolg van beschadiging door de zon. Deze vorm
-        van hyperpigmentatie noemen we ook wel ‘ouderdomsvlekken’, al heeft
-        leeftijd niets te maken met de aandoening. Hyperpigmentatie
-        behandelingen bij SkinHouse. Pigmentvlekken in het gezicht kunnen erg
-        opvallend zijn en je onzeker maken. Bij SkinHouse kunnen we pigmentatie
-        doelgericht behandelen. Wat is het resultaat van de behandeling? Na een
-        behandeling tegen pigmentatie zie je snel resultaat. We stimuleren de
-        celvernieuwing in jouw huid waardoor deze egaler wordt en weer gaat
-        stralen. De verkleuringen en vlekjes in de huid worden minder of
-        verdwijnen helemaal. Het is noodzakelijk om na de behandeling
-        (dagelijks) de huid goed te beschermen met een dagcrème SPF50. Onze
-        Hyperpigmentatie behandelingen: HydraFacial Fire & Ice Treatment iS
-        CLINICAL C-Peptide Peel CIRCADIA
+        melasma, ook wel &apos;zwangerschapsmasker&apos; genoemd; •
+        Ontstekingsremmend: als een puistje of wondje is genezen kan
+        post-inflammatoire hyperpigmentatie (PIH) optreden. • Door de zon: dit
+        soort hyperpigmentatie is het gevolg van beschadiging door de zon. Deze
+        vorm van hyperpigmentatie noemen we ook wel
+        &apos;ouderdomsvlekken&apos;, al heeft leeftijd niets te maken met de
+        aandoening. Hyperpigmentatie behandelingen bij SkinHouse. Pigmentvlekken
+        in het gezicht kunnen erg opvallend zijn en je onzeker maken. Bij
+        SkinHouse kunnen we pigmentatie doelgericht behandelen. Wat is het
+        resultaat van de behandeling? Na een behandeling tegen pigmentatie zie
+        je snel resultaat. We stimuleren de celvernieuwing in jouw huid waardoor
+        deze egaler wordt en weer gaat stralen. De verkleuringen en vlekjes in
+        de huid worden minder of verdwijnen helemaal. Het is noodzakelijk om na
+        de behandeling (dagelijks) de huid goed te beschermen met een dagcrème
+        SPF50. Onze Hyperpigmentatie behandelingen: HydraFacial Fire & Ice
+        Treatment iS CLINICAL C-Peptide Peel CIRCADIA
       </>
     ),
   },
@@ -168,12 +169,12 @@ export const treatments: {
         behandeling? Vlak na de behandeling zul je merken dat je huid wat rood
         en gezwollen is. Dat is normaal en trekt vanzelf weg. Kort na de
         behandeling kan het zijn dat ontstekingen en onzuiverheden even kort
-        kunnen toenemen. Dit ontstaat door de ‘purging fase’. Door het ‘naar
-        boven halen’ van afvalstoffen kan het zijn dat je huid even wat meer
-        onzuiverheden ontwikkelt. Zodra deze fase voorbij is zal je huid
-        geleidelijk opklaren. Onze Acne behandelingen: HydraFacial Fire & Ice
-        Treatment iS CLINICAL Exfoliating Clear Skin Facial iS CLINICAL Gel Peel
-        CIRCADIA
+        kunnen toenemen. Dit ontstaat door de &apos;purging fase&apos;. Door het
+        &apos;naar boven halen&apos; van afvalstoffen kan het zijn dat je huid
+        even wat meer onzuiverheden ontwikkelt. Zodra deze fase voorbij is zal
+        je huid geleidelijk opklaren. Onze Acne behandelingen: HydraFacial Fire
+        & Ice Treatment iS CLINICAL Exfoliating Clear Skin Facial iS CLINICAL
+        Gel Peel CIRCADIA
       </>
     ),
   },
@@ -242,37 +243,37 @@ export const treatments: {
     ),
   },
   {
-    title: "Men's Care",
+    title: "Men&apos;s Care",
     link: "mens-care",
     img: "https://images.unsplash.com/photo-1584473655723-736035360fc2?q=80&w=2722&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: (
       <>
-        Men's Care behandelingen bij SkinHouse. Gelaatsbehandelingen voor mannen
-        hebben vaak een aantal vaste onderdelen, waaronder reinigen, exfoliëren,
-        een masker en een hydraterende crème. De huidverzorging begint met een
-        reiniging en een scrub/peel waarbij dode huidcellen worden verwijderd.
-        Ook onzuiverheden zoals puistjes en mee-eters worden verwijderd. Dit kan
-        soms wat gevoelig zijn, maar het resultaat mag er wezen. Wanneer de huid
-        schoon is, gaan wij voor een diepe hydratatie zorgen…. maar eerst een
-        ontspannende massage 🙂 Omdat de mannenhuid vaak droger is dan die van
-        een vrouw, wordt er een intens voedende crème gebruikt, die niet vet is.
-        Je verlaat het salon met een schone en frisse huid die weer zacht en
-        gezond aanvoelt. GOED OM TE WETEN Overweeg je een gelaatsbehandeling
-        voor mannen? Dan vind je hieronder nog wat bruikbare tips: Een
-        gelaatsbehandeling voor mannen kan volledig aan je wensen en behoeften
-        worden aangepast. Heb je bijzondere wensen? Spreek deze dan van tevoren
-        uit. Scheer je huid niet vlak voor een gelaatsbehandeling. Je huid kan
-        beschadigen en daardoor extra gevoelig zijn voor sommige producten. Het
-        is daarom beter om je de avond of dag van tevoren te scheren. DE
-        WETENSCHAPPELIJKE FEITEN OP EEN RIJTJE Is je huid ruw, droog en onzuiver
-        en kan je gezicht wel een onderhoudsbeurt gebruiken? Dan zijn onze Men’s
-        Care behandelingen een goede oplossing. Er zijn allerlei redenen waarom
-        je huid wat gevoeliger of onrustiger kan zijn en ook je levensstijl
-        heeft veel effect op de conditie van je huid. Een gelaatsbehandeling kan
-        de schade beperken en herstellen. Bovendien is het heerlijk ontspannend
-        en zit je na een behandeling weer boordevol nieuwe energie. Onze Men’s
-        Care behandelingen: HydraFacial Fire & Ice Treatment iS CLINICAL
-        Exfoliating Clear Skin Facial iS CLINICAL
+        Men&apos;s Care behandelingen bij SkinHouse. Gelaatsbehandelingen voor
+        mannen hebben vaak een aantal vaste onderdelen, waaronder reinigen,
+        exfoliëren, een masker en een hydraterende crème. De huidverzorging
+        begint met een reiniging en een scrub/peel waarbij dode huidcellen
+        worden verwijderd. Ook onzuiverheden zoals puistjes en mee-eters worden
+        verwijderd. Dit kan soms wat gevoelig zijn, maar het resultaat mag er
+        wezen. Wanneer de huid schoon is, gaan wij voor een diepe hydratatie
+        zorgen…. maar eerst een ontspannende massage 🙂 Omdat de mannenhuid vaak
+        droger is dan die van een vrouw, wordt er een intens voedende crème
+        gebruikt, die niet vet is. Je verlaat het salon met een schone en frisse
+        huid die weer zacht en gezond aanvoelt. GOED OM TE WETEN Overweeg je een
+        gelaatsbehandeling voor mannen? Dan vind je hieronder nog wat bruikbare
+        tips: Een gelaatsbehandeling voor mannen kan volledig aan je wensen en
+        behoeften worden aangepast. Heb je bijzondere wensen? Spreek deze dan
+        van tevoren uit. Scheer je huid niet vlak voor een gelaatsbehandeling.
+        Je huid kan beschadigen en daardoor extra gevoelig zijn voor sommige
+        producten. Het is daarom beter om je de avond of dag van tevoren te
+        scheren. DE WETENSCHAPPELIJKE FEITEN OP EEN RIJTJE Is je huid ruw, droog
+        en onzuiver en kan je gezicht wel een onderhoudsbeurt gebruiken? Dan
+        zijn onze Men&apos;s Care behandelingen een goede oplossing. Er zijn
+        allerlei redenen waarom je huid wat gevoeliger of onrustiger kan zijn en
+        ook je levensstijl heeft veel effect op de conditie van je huid. Een
+        gelaatsbehandeling kan de schade beperken en herstellen. Bovendien is
+        het heerlijk ontspannend en zit je na een behandeling weer boordevol
+        nieuwe energie. Onze Men&apos;s Care behandelingen: HydraFacial Fire &
+        Ice Treatment iS CLINICAL Exfoliating Clear Skin Facial iS CLINICAL
       </>
     ),
   },
