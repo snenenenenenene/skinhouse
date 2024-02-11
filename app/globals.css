@@ -2,32 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Basier";
+  src: url("../public/Basier\ Square\ Regular.otf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@font-face {
+  font-family: "Novela";
+  src: url("../public/Novela.ttf");
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 16px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media only screen and (min-width: 320px) {
+  @media only screen and (min-width: 768px) {
+    html {
+      font-size: 18px;
+    }
   }
 }

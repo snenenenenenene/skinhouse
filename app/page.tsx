@@ -1,112 +1,176 @@
-import Image from "next/image";
+import Link from "next/link";
+import MailingList from "./components/mailingList";
+import Product from "./components/product";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
+    <main className="">
+      <div className="flex w-full h-[50rem] pt-16 pb-[12rem]">
+        <section className="flex w-full h-full relative">
+          <picture className="pr-20 pt-[5rem]">
+            <img
+              className="bg-green-900 w-full h-[25rem] object-cover"
+              src="https://images.unsplash.com/photo-1573461160327-b450ce3d8e7f?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
-          </a>
+          </picture>
+        </section>
+        <section className="flex w-full h-full flex-col">
+          <picture className="pr-20">
+            <img
+              src="https://images.unsplash.com/photo-1585945037805-5fd82c2e60b1?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              className="bg-green-900 w-full h-[20rem] object-cover"
+            />
+          </picture>
+        </section>
+        <section className="flex w-full h-full">
+          <picture className="pl-24 pt-[5rem]">
+            <img
+              src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2tpbmNhcmV8ZW58MHx8MHx8fDA%3D"
+              className="bg-green-900 w-full h-[25rem] object-cover"
+            />
+          </picture>
+        </section>
+        <section className="flex w-full h-full">
+          <picture className="pl-24 pt-[10rem]">
+            <img
+              src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNraW5jYXJlfGVufDB8fDB8fHww"
+              className="bg-green-900 w-full h-[25rem] object-cover"
+            />
+          </picture>
+        </section>
+        <div className="flex flex-col absolute top-[32rem] ml-[19rem] mt-8">
+          <span className="flex gap-x-2 text-light-blackasset">
+            <p>HydraFacial™</p>
+            <p>-</p>
+            <p>Aesthethicism</p>
+          </span>
+          <span className="flex text-6xl font-Novela w-96">
+            <h2>Love yourself more.</h2>
+          </span>
+          <span className="text-[1rem] font-normal text-light-blackasset flex gap-[1rem]">
+            <Link href="/book-appointment">Book your appointment</Link>
+            <Link href="/products">Buy products</Link>
+          </span>
         </div>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+      <div className="border-y-2 border-light-linen py-[8rem] px-[1rem] text-[2.25rem] font-Novela text-center w-[90%] max-w-[320rem] mx-auto flex justify-center">
+        <span className="max-w-[720px]">
+          “I love coming to see Eliza and do the hydrofacial with her. Is always
+          very gentle and I come out with clean and glowing. Highly
+          recommended.”
+        </span>
+      </div>
+      <div className="py-[8rem] px-[1rem] text-[2.25rem] font-Novela text-center w-[90%] max-w-[320rem] mx-auto flex justify-center">
+        <img
+          className="w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1629380150561-5fe77dab7fc6?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+      <div className="border-y-2 border-light-linen py-[8rem] px-[1rem] w-[90%] max-w-[320rem] mx-auto flex justify-center">
+        <section className="flex flex-col gap-y-[2rem] w-1/3 mr-[4vw]">
+          <h1 className="text-[2.25rem] font-Novela">About me</h1>
+          <p className="text-[1rem] mb-[20vh]">
+            I create a place full of passion, knowledge, and care for the skin.
+            My team consists of individuals focused on developing, deepening,
+            and updating knowledge and, most importantly, skin health. I consult
+            and examine the skin to select the best treatment therapies and
+            care. Thanks to this, together with you, I enjoy the best results.
           </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          <h1 className="text-[2.25rem] font-Novela">First visit</h1>
+          <p className="text-[1rem]">
+            We start with a detailed consultation and skin examination. They
+            give us a picture of the current condition of the skin and allow us
+            to select an individually tailored treatment and care plan.
+            Everything with attention and care for the needs of your skin.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
+        </section>
+        <section className="flex flex-col gap-y-[2rem] w-2/3 justify-start relative">
+          <div className="w-[80%] flex h-[25rem] sticky top-20">
+            <picture className="flex w-full h-full">
+              <img
+                className="object-cover flex w-full h-full"
+                src="https://plus.unsplash.com/premium_photo-1674941900249-4a5d0efe20e5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2tpbmNhcmV8ZW58MHx8MHx8fDA%3D"
+              />
+            </picture>{" "}
+            <picture className="flex w-full h-full relative">
+              <img
+                className="object-cover flex w-full h-full absolute -left-20 top-20"
+                src="https://images.unsplash.com/photo-1585945037805-5fd82c2e60b1?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              />
+            </picture>
+          </div>
+        </section>
+      </div>
+      <div className="py-[8rem] w-[90%] max-w-[320rem] mx-auto flex flex-col justify-center">
+        <h1 className="text-[2.25rem] font-Novela mb-[3.5rem] h-[3.5rem]">
+          Treatments
+        </h1>
+        <section className="flex w-full h-[35vw] gap-[2.5rem]">
+          <Link href="/treatments/feel-good" className="w-full h-full flex">
+            <article className="flex w-full h-full relative overflow-hidden">
+              <picture className="flex w-full h-full">
+                <img
+                  className="object-cover flex w-full h-full brightness-50"
+                  src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+              </picture>
+              <span className="absolute w-full h-full p-[3.5rem] flex flex-col text-light-white gap-y-[2rem] justify-end">
+                <h2 className="text-[2.25rem] font-normal">Hydrafacial</h2>
+                <p className="text-[1rem]">
+                  HydraFacial™ is geschikt voor alle huidtypes en de aangewezen
+                  behandeling als je een vermoeide en vale huid hebt, een
+                  rijpere huid met verslapping, lijntjes en kraaienpootjes,
+                  pigmentvlekken of littekens. Ook bij een door de zon
+                  beschadigde huid, een rokershuid, onzuivere huid en grove
+                  poriën kan de HydraFacial™ perfect worden ingezet.
+                </p>
+              </span>
+            </article>
+          </Link>
+          <Link href="/treatments/feel-good" className="w-full h-full flex">
+            <article className="flex w-full h-full relative overflow-hidden">
+              <picture className="flex w-full h-full">
+                <img
+                  className="object-cover flex w-full h-full brightness-50"
+                  src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+              </picture>
+              <span className="absolute w-full h-full p-[3.5rem] flex flex-col text-light-white gap-y-[2rem] justify-end">
+                <h2 className="text-[2.25rem] font-normal">Aesthetics</h2>
+                <p className="text-[1rem]">
+                  Based on an intake conversation, I get to know your
+                  preferences regarding skincare. Through a skin analysis, I
+                  also learn about the needs of your skin. This way, as a skin
+                  coach, I can provide you with accurate advice on your skincare
+                  routine and apply the advice immediately during the first
+                  facial care session.
+                </p>
+              </span>
+            </article>
+          </Link>
+        </section>
+      </div>
+      <div className="py-[8rem] w-[90%] max-w-[320rem] mx-auto flex flex-col justify-center">
+        <span className="mb-[3.5rem]">
+          <h2 className="text-[2.25rem] font-Novela">Products</h2>
+          <p className="text-[1rem]">
+            Home care is one of the key aspects of skin health. Our store offers
+            selected cosmetics recommended by Eliza.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </span>
+        <div className="grid grid-cols-3 w-full">
+          <Product
+            title="Cleansing complex"
+            price="€ 55,00"
+            description="Cleanser"
+            image="https://www.skinhouse.be/wp-content/uploads/2023/02/Cleansing-complex_180ml-1-300x300.png"
+            link="/cleansing-complex"
+          />
+        </div>
+      </div>
+      <div className="py-[8rem]">
+        <MailingList />
       </div>
     </main>
   );
