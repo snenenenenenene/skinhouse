@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Loading from "./components/loading";
 import Navbar from "./components/navbar";
 import "./globals.css";
 
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="relative bg-light-alabaster text-light-blacktext font-Basier flex flex-col w-full h-full pt-32 pb-4 px-[5%]">
+        <Loading />
         <Navbar />
         {children}
       </body>

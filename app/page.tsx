@@ -95,7 +95,7 @@ export default function Home() {
           </p>
         </section>
         <section className="flex flex-col gap-y-[2rem] w-2/3 justify-start relative">
-          <div className="w-[80%] flex h-[25rem] sticky top-40">
+          <div className="w-[80%] flex h-[25rem] transition-all duration-300 ease-in-out sticky top-40">
             <picture className="flex w-full h-full">
               <img
                 className="object-cover flex w-full h-full"

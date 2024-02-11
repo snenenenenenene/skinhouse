@@ -1,33 +1,32 @@
+"use client";
 import { useEffect, useState } from "react";
 
 const Loading = () => {
   const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
-    // Simulate a delay of 2 seconds before showing the content
     const timeout = setTimeout(() => {
       setShowContent(true);
     }, 2000);
 
-    // Clean up the timeout to avoid memory leaks
     return () => clearTimeout(timeout);
   }, []);
 
   return (
-    <div>
-      {showContent ? (
-        // Render your actual content here
-        <div>
-          <h1>Loading Complete!</h1>
-          {/* Add your actual content components here */}
-        </div>
-      ) : (
-        // Render loading indicator here
-        <div>
-          <h1>Loading...</h1>
-          {/* Add your loading animation or message here */}
-        </div>
-      )}
+    <div
+      className={`${
+        showContent ? "bg-transparent text-transparent invisible" : " visible"
+      } bg-light-alabaster flex transition-all duration-500 ease-in-out fixed top-0 z-[100] left-0 w-screen h-screen justify-center items-center`}
+    >
+      <div
+        className={`h-20 w-20 text-3xl rounded-full flex animate-pulse justify-center items-center ${
+          showContent
+            ? "bg-transparent text-transparent"
+            : "bg-light-blackasset text-light-alabaster"
+        }`}
+      >
+        <h1 className="font-Novela">SH</h1>
+      </div>
     </div>
   );
 };
